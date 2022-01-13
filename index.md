@@ -19,9 +19,9 @@ email: ["kay.bjornen@okstate.edu"]    # boxed, comma-separated list of contact e
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
-<a id="s_lc_event_8788524" href="https://okstate.libcal.com/calendar/events/datacarpentry">REGISTER</a>
+<a id="s_lc_event_8789302" href="https://okstate.libcal.com/calendar/events/datacarpentry1">REGISTER</a>
 <style>
-#s_lc_event_8788524 {
+#s_lc_event_8789302 {
   background: #FA620A;
   border: 1px solid #FA620A;
   border-radius: 4px;
@@ -30,7 +30,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   padding: 8px 20px;
   cursor: pointer;
 }
-#s_lc_event_8788524:hover {
+#s_lc_event_8789302:hover {
   opacity: 0.9;
 }
 </style>
