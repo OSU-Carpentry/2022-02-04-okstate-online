@@ -8,58 +8,48 @@ The schedule for the different curricula are listed here:
 - dc-geosptial
 {% endcomment %}
 {% elsif site.curriculum == "dc-ecology" %}
-<div class="row">
-  <div class="col-md-6">
+<div class="row">        <!-- first two days -->
+  <div class="col-md-6"> <!-- left column -->
     <h3>February 4th</h3>
     <table class="table table-striped">
-      <tr>
-	<td>Before starting</td>
-	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      <tr>               <!-- row 1   -->
+        <td>Before starting</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr><td>9:00 am</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td>10:30 am</td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-	    <tr><td>END</td></tr>
+      <tr> <td>9:00 am</td>              <!-- row 2   --><td><a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
+
+        <tr><td>10:30 am</td> <tr>               <!-- row 3   --></td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>     
+     
+        <tr><td>12:00 pm</td><td>END</td>        <!-- content -->
+      </tr>
     </table>
   </div>
-
-  <div class="col-md-6">
+  <div class="col-md-6"> <!-- right column -->
     <h3>February 11th</h3>
     <table class="table table-striped">
-      <tr><td>9:00 am</td> <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-	    <tr><td>END</td></tr>
+      <tr> 9:00 am</td><td><a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R </a></td></tr>
+
+        <tr><td>12:00 pm</td> <td>END</td>
+      </tr>
     </table>
   </div>
- <!-- </div> Do we need this tag to end the row? -->
-   <div class="col-md-6">
+</div>
+<div class="row">        <!-- days 3 and 4 -->
+  <div class="col-md-6"> <!-- left column -->
     <h3>February 18th</h3>
     <table class="table table-striped">
-      <tr> <td>9:00 am</td>
-          <td>	        
-	    {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-        </td>
-      </tr>
-	<tr><td>END</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-	 <!--
-      <tr>
-	<td> </td>
-	<td> END </td></tr>
+      <tr>               <!-- row 1   -->
+        <td>9:00 am</td>        <!-- time    -->
+        <td><tr> 9:00 am</td><td><a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R:  Data Analysis & Visualization </a></td></tr>
+        <!-- content -->
 
+      <tr>               <!-- row 2   -->
+        <td>12:00 pm</td>        <!-- time    -->
+        <td>END</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+          <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+      </tr>
     </table>
   </div>
 </div>
